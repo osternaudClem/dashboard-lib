@@ -1,6 +1,6 @@
 {
   "name": "@cl3tus/dashboard",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Interactive dashboard component for real-time data visualization",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
