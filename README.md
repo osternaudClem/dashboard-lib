@@ -13,7 +13,7 @@ npm install cl3tus-dashboard
 ### Basic Usage
 
 ```typescript
-import { DashboardClient } from "cl3tus-dashboard";
+import { DashboardClient } from "@cl3tus/dashboard";
 
 const dashboard = new DashboardClient({
   apiKey: "your-api-key",
