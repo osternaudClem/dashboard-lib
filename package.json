@@ -1,10 +1,12 @@
 {
   "name": "@cl3tus/dashboard",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Interactive dashboard component for real-time data visualization",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build",
