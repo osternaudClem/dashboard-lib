@@ -1,13 +1,15 @@
 export interface HttpLogPayload {
+  source: string;
   method: string;
   url: string;
-  status: number;
-  headers: Record<string, string>;
+  statusCode: number;
+  headers?: Record<string, string>;
   params?: Record<string, any>;
   query?: Record<string, any>;
   body?: any;
   response?: any;
-  responseTime?: number;
+  ip?: string;
+  userAgent?: string;
 }
 
 export interface LogPayload {
